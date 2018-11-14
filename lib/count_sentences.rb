@@ -13,11 +13,6 @@ class String
   end
   
   def count_sentences
-    self.split(/[.!?]/).reject 
+    self.split(/[.!?]/).map 
   end
-  
-  def count_sentences_words
-    self.split(/[.!?]/).map
-  end
-  
 end
