@@ -19,4 +19,5 @@ class String
   def count_sentences_words
     self.split(/[.!?]/).map
   end
+  
 end
