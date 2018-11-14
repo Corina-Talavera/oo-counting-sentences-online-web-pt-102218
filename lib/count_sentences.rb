@@ -15,4 +15,7 @@ class String
   def count_sentences
     self.split(/[.!?]/).map 
   end
+
+"HI!".end_with?("!")
+  => true  
 end
